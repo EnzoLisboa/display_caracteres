@@ -72,3 +72,5 @@ Carregue o código compilado no Raspberry Pi Pico.
 - Envie caracteres pelo Serial Monitor para exibi-los no display OLED ou na matriz de LEDs.
 
 ## Demonstração
+
+[Assista ao vídeo da demonstração](https://drive.google.com/file/d/1SY2i4aN8Uf4EV91dtX9srxX5SR73hCyl/view?usp=sharing)
