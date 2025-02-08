@@ -31,7 +31,7 @@ O código está organizado da seguinte forma:
   - `config_button`: Configura os botões como entradas com pull-up.
   - `config_led`: Configura os LEDs como saídas.
 - **Funções para Exibir Números na Matriz de LEDs**:
-  - `n_zero` a `n_nove`: Funções que definem os padrões de LEDs para cada número de 0 a 9.
+  - `n_zero` a `n_nove`: Funções que imprimem os padrões de LEDs para cada número de 0 a 9.
 - **Função Principal (main)**:
   - Inicializa os botões, LEDs, matriz de LEDs e display OLED.
   - Entra em um loop infinito onde verifica o estado dos botões e exibe o caractere correspondente na matriz de LEDs ou no display OLED.
