@@ -21,8 +21,6 @@ O código está organizado da seguinte forma:
 
 - **Inclusão de Bibliotecas**: Inclui as bibliotecas necessárias para controlar o Raspberry Pi Pico, a matriz de LEDs, o display OLED e os botões.
 - **Definição de Pinos**: Define os pinos utilizados para a matriz de LEDs, display OLED, botões e LEDs indicadores.
-- **Funções para Controle da Matriz de LEDs**:
-  - `n_numero`:  Imprime o número na matriz de LEDs.
 - **Funções para Controle do Display OLED**:
   - `ssd1306_fill`: Limpa o display OLED.
   - `ssd1306_draw_char`: Desenha um caractere no display OLED.
@@ -32,7 +30,7 @@ O código está organizado da seguinte forma:
 - **Funções Auxiliares**:
   - `config_button`: Configura os botões como entradas com pull-up.
   - `config_led`: Configura os LEDs como saídas.
-- **Funções para Exibir Números**:
+- **Funções para Exibir Números na Matriz de LEDs**:
   - `n_zero` a `n_nove`: Funções que definem os padrões de LEDs para cada número de 0 a 9.
 - **Função Principal (main)**:
   - Inicializa os botões, LEDs, matriz de LEDs e display OLED.
